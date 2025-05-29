@@ -1,0 +1,278 @@
+/* 
+  Localizable.strings
+  ITExams
+
+  Created by Андрей Чернышев on 22.02.2022.
+  
+*/
+
+// MARK: General
+"Cancel" = "Cancel";
+"Continue" = "Continue";
+"Next" = "Next";
+
+// MARK: Splash
+"Splash.Name" = "Wonderlic";
+"Splash.Text" = "Personalized study prep";
+"Splash.Preloader" = "Creating account...";
+
+// MARK: Day of week
+"DayOfWeek.Short.Su" = "Su";
+"DayOfWeek.Short.Mn" = "Mn";
+"DayOfWeek.Short.Tu" = "Tu";
+"DayOfWeek.Short.We" = "We";
+"DayOfWeek.Short.Th" = "Th";
+"DayOfWeek.Short.Fr" = "Fr";
+"DayOfWeek.Short.Sa" = "Sa";
+"DayOfWeek.OneLetter.Su" = "S";
+"DayOfWeek.OneLetter.Mn" = "M";
+"DayOfWeek.OneLetter.Tu" = "T";
+"DayOfWeek.OneLetter.We" = "W";
+"DayOfWeek.OneLetter.Th" = "T";
+"DayOfWeek.OneLetter.Fr" = "F";
+"DayOfWeek.OneLetter.Sa" = "S";
+
+// MARK: Onboarding
+"Onboarding.Start.Header" = "Personal Plan";
+"Onboarding.Start.Title" = "Let’s build your\npersonal study\nprogram";
+"Onboarding.Start.SubTitle" = "We will need to gather some information about your habits and your current level";
+"Onboarding.Start.Button" = "Let’s go";
+"Onboarding.Motivation.Header" = "Motivation";
+"Onboarding.Motivation.Title" = "How exactly we can\nhelp you?";
+"Onboarding.Motivation.SubTitle" = "We’ll use this data to build your personal study plan";
+"Onboarding.Motivation.Cell1" = "Get to know all questions";
+"Onboarding.Motivation.Cell2" = "Keep track of progress";
+"Onboarding.Motivation.Cell3" = "Develop a learning habit";
+"Onboarding.Age.Header" = "Assessment";
+"Onboarding.Age.Title" = "What is your age?";
+"Onboarding.Age.SubTitle" = "We’ll see the comparison of your results with the ones of your peers";
+"Onboarding.Why.Header" = "Why use this app?";
+"Onboarding.Why.Title" = "No cramming, only true learning";
+"Onboarding.Why.SubTitle" = "The explanations you see after answering help you understand the idea behind each question";
+"Onboarding.Course.Header" = "Course";
+"Onboarding.Course.Title" = "What do you want\nto learn?";
+"Onboarding.Course.SubTitle" = "Choose the course you need and switch to the other later on";
+"Onboarding.QuizSolution.Title" = "Now, please take\nthis 2-minute quiz";
+"Onboarding.QuizSolution.Skip" = "Skip";
+"Onboarding.QuizSolution.Start" = "Start";
+"Onboarding.DetermingSkill.Title" = "Thank you";
+"Onboarding.DetermingSkill.SubTitle" = "We’re determining your skill level...";
+"Onboarding.QuizResult.Header" = "Quiz Result";
+"Onboarding.QuizResult.Title" = "Your starting level";
+"Onboarding.QuizResult.SubTitle" = "Keep it up! Soon, you’ll be able to move through the question bank much faster";
+"Onboarding.QuizResult.Level1" = "Beginner";
+"Onboarding.QuizResult.Level2" = "Middle";
+"Onboarding.QuizResult.Level3" = "Advanced";
+"Onboarding.QuizResult.Button" = "Create a personal plan";
+"Onboarding.ExamDate.Header" = "Exam date";
+"Onboarding.ExamDate.Title" = "When are you\ntaking the exam?";
+"Onboarding.ExamDate.SubTitle" = "No worries if you’re not sure – you can set it later";
+"Onboarding.ExamDate.Skip" = "I don’t know";
+"Onboarding.DailyGoal.Header" = "Daily goal";
+"Onboarding.DailyGoal.Title" = "Pick the days and\namount of time\nyou’ll dedicate to\nstudying";
+"Onboarding.DailyGoal.SubTitle" = "We recommend to study at least 20 minutes a day.";
+"Onboarding.DailyGoal.min" = "min";
+"Onboarding.StudyMode.Header" = "Study mode";
+"Onboarding.StudyMode.Title" = "What study mode\ndo you prefer?";
+"Onboarding.StudyMode.SubTitle" = "This will define your test mode. You can later change it in the settings";
+"Onboarding.StudyMode.Mode1.Title" = "Full support";
+"Onboarding.StudyMode.Mode1.Text" = "After answering you’ll see the correct options and the explanation";
+"Onboarding.StudyMode.Mode2.Title" = "Without explanations";
+"Onboarding.StudyMode.Mode2.Text" = "The app will show only the correct answer before the next question";
+"Onboarding.StudyMode.Mode3.Title" = "Exam-style";
+"Onboarding.StudyMode.Mode3.Text" = "See the final result only after answering all questions";
+"Onboarding.CreatingPlanView.Title" = "Creating your plan";
+"Onboarding.CreatingPlanView.Section1" = "Identifying your goals";
+"Onboarding.CreatingPlanView.Section2" = "Analyzing your personal data";
+"Onboarding.CreatingPlanView.Section3" = "Recognizing exam details";
+"Onboarding.CreatingPlanView.Section4" = "Reviewing study preferences";
+"Onboarding.CreatingPlanView.Years" = "%@ years old";
+"Onboarding.CreatingPlanView.DailyGoal" = "Daily goal";
+"Onboarding.PlanView.Title" = "Your personal plan\nhas been generated";
+"Onboarding.PlanView.SubTitle" = "Reach your goal with a study plan, which will guide you from A to Z";
+"Onboarding.PlanView.Column1.Title" = "Now";
+"Onboarding.PlanView.Column1.Period" = "Week 1";
+"Onboarding.PlanView.Column2.Title" = "15 tests\nper week";
+"Onboarding.PlanView.Column2.Period" = "Week 4";
+"Onboarding.PlanView.Button" = "Get my plan";
+
+// MARK: Paygate
+"Paygate.Error.Title" = "Error";
+"Paygate.Error.Text" = "An error occurred during execution. Try later.";
+"Paygate.Error.Button" = "OK";
+"Paygate.Title" = "KNOW THE QUESTIONS\nBEFOREHAND";
+"Paygate.Info1" = "Don’t spend hours learning";
+"Paygate.Info2" = "Train yourself with 10000+ questions";
+"Paygate.Info3" = "98% pass rate on the first attempt!";
+"Paygate.Lifetime.Title" = "Lifetime";
+"Paygate.Lifetime.Period" = "week";
+"Paygate.Lifetime.InTerms" = "In terms of  1  year";
+"Paygate.Lifetime.Discount" = "SAVE %i%%";
+"Paygate.Lifetime.Once" = "once";
+"Paygate.Subscription.Name1" = "3 days for free";
+"Paygate.Subscription.Name2" = "Quick prep";
+"Paygate.Subscription.Bottom1" = "After 3 day trial";
+"Paygate.Subscription.Bottom2" = "Trial is over";
+"Paygate.Subscription.Period" = "month";
+"Paygate.CancelAnytime" = "Secured by the App Store. Cancel anytime.";
+"Paygate.TermsOfUse" = "Terms of Use";
+"Paygate.PrivacyPolicy" = "Privacy Policy";
+"Paygate.RestorePurchases" = "Restore Purchases";
+
+// MARK: Main
+"Main.Plan" = "Plan";
+"Main.Practice" = "Practice";
+"Main.Flashcards" = "Flashcards";
+"Main.Profile" = "Profile";
+
+// MARK: Plan
+"Plan.StudyScore.Title" = "Study score";
+"Plan.StudyScore.Goal" = "Your goal - %@";
+"Plan.Test.Questions" = "%i questions";
+"Plan.FinalStep" = "Final step";
+"Plan.FinalStep.Title1" = "You’re in the right place!";
+"Plan.FinalStep.SubTitle1" = "Complete the final step to check your\nreadiness for the exam";
+"Plan.FinalStep.Title2" = "You’re in the right place!";
+"Plan.FinalStep.SubTitle2" = "Complete the final step to check your\nreadiness for the exam";
+"Plan.FinalStep.Title3" = "Congrats on completing the final step!";
+"Plan.FinalStep.SubTitle3" = "You scored %i%%. Re-take the exam\nresult";
+"Plan.FinalStep.Button1" = "Start";
+"Plan.FinalStep.Button2" = "Continue";
+"Plan.FinalStep.Button3" = "Try Again";
+
+// MARK: Courses
+"Courses.Save" = "Save";
+"Courses.Title" = "Course";
+"Courses.Current" = "Current";
+
+// MARK: TryAgain
+"TryAgain.Title" = "The app failed to perform a request";
+"TryAgain.SubTitle" = "If there’s a connection issue on your side try one more time. If the connection is fine and the error keeps on repeating please get in touch with the support";
+"TryAgain.Button" = "Try again";
+"TryAgain.Contact" = "Contact the support";
+
+// MARK: Profile
+"Profile.Title" = "Profile";
+"Profile.Stats" = "Stats";
+"Profile.Review" = "Review";
+"Profile.Settings" = "Settings";
+
+// MARK: Settings
+"Settings.Premium.Title" = "Go premium";
+"Settings.Premium.SubTitle" = "Know all questions\nbeforehand";
+"Settings.MyProfile" = "My profile";
+"Settings.App" = "App";
+"Settings.ContactUs" = "Contact us";
+"Settings.PrivacyPolicy" = "Privacy Policy";
+"Settings.TermsOfUse" = "Terms of use";
+"Settings.RateUs" = "Rate us";
+
+// MARK: My profile
+"MyProfile.Title" = "My profile";
+"MyProfile.DateOfExam" = "Date of exam";
+"MyProfile.Exams" = "Exams";
+"MyProfile.Course" = "Course";
+"MyProfile.StudyMode" = "Study mode";
+"MyProfile.DailyGoal" = "Daily goal";
+"MyProfile.ResetProgress" = "Reset progress";
+"MyProfile.min" = "%i min";
+"MyProfile.StudyMode.FullSupport" = "Full support";
+"MyProfile.StudyMode.WithoutExplanations" = "Without explanations";
+"MyProfile.StudyMode.Exam-style" = "Exam-style";
+
+// MARK: Stats
+"Stats.Main.Answered" = "Answered";
+"Stats.Main.Correct" = "Correct";
+"Stats.Main.Total" = "Total";
+"Stats.UnlockPremiumButton.Text" = "Unlock %i+ questions";
+"Stats.DailyMetrics.Title" = "Daily metrics";
+"Stats.DailyMetrics.CurrentStreak" = "Current streak";
+"Stats.DailyMetrics.LongestStreak" = "Longest streak";
+"Stats.DailyMetrics.Days" = " days";
+"Stats.PassRate.Title" = "Pass rate progress";
+"Stats.PassRate.PassRate" = "pass rate";
+"Stats.PassRate.0Percent" = "0%";
+"Stats.PassRate.25Percent" = "25%";
+"Stats.PassRate.50Percent" = "50%";
+"Stats.PassRate.100Percent" = "100%";
+"Stats.Subject.Title" = "Subject Progress";
+"Stats.Subject.Correct" = "Correct %i/%i";
+"Stats.UnlockPremiumFake.Text" = "Get the unlimited access\nto unlock all insights";
+"Stats.UnlockPremiumFake.Button" = "Get Premium";
+
+// MARK: Review
+"Review.All" = "All";
+"Review.Incorrect" = "Incorrect";
+"Review.Correct" = "Correct";
+"Review.Empty.Title" = "No questions";
+"Review.Empty.SubTitle" = "Take a quick test and review all of the answered questions here.";
+"Review.Empty.Button" = "Take a quick test";
+
+// MARK: Question
+"Question.Explanation" = "Explanation";
+"Question.Continue" = "Continue";
+"Question.Submit" = "Submit test";
+"Question.BackToStudying" = "Submit question";
+"Question.NextQuestion" = "Next";
+"Question.TodayTitle" = "Today’s question";
+
+// MARK: TestStats
+"TestStats.CorrectAnswers" = "Correct answers";
+"TestStats.QuizTime" = "Quiz time";
+"TestStats.WeakSubject" = "Weak subject";
+"TestStats.Restart" = "Restart";
+"TestStats.NextTest" = "Next test";
+"TestStats.Review" = "Review";
+"TestStats.All" = "All";
+"TestStats.Incorrect" = "Incorrect";
+"TestStats.Correct" = "Correct";
+
+// MARK: Practice
+"Practice.Title" = "Practice";
+"Practice.ChangeExamDate" = "Change date";
+"Practice.ExamDate.UpcomingExam" = "Upcoming exam";
+"Practice.ExamDate.DaysCount" = "%i days";
+"Practice.ExamDate.TrackDate" = "Track date";
+"Practice.DailyQuestion.Title" = "Daily question";
+"Practice.DailyQuestion.TapReview" = "Tap to review";
+"Practice.Tests.Title" = "Knowledge practice";
+"Practice.Tests.RandomTest" = "Random test";
+"Practice.Tests.MissedTest" = "Missed questions test";
+"Practice.Tests.QuickTest" = "Quick test";
+"Practice.Tests.SavedTest" = "Saved questions";
+"Practice.Tests.CustomMade" = "Custom made";
+"Practice.Tests.QuestionsCount" = "%i questions";
+"Practice.Tests.CustomMadeSubTitle" = "Create your own question pool";
+"Practice.UnlockPremium.Text" = "Get the unlimited access\nto %i+ questions";
+"Practice.UnlockPremium.Button" = "Get Premium";
+
+// MARK: PracticeDateOfExam
+"PracticeDateOfExam.Title1" = "Change your exam date";
+"PracticeDateOfExam.Title2" = "Set your exam date";
+"PracticeDateOfExam.SaveButton" = "Save date";
+
+// MARK: TestEmpty
+"TestEmpty.NoSaved.Title" = "No saved questions";
+"TestEmpty.NoSaved.Text" = "Tap the bookmark icon at the top of any question during the test to review it later here.";
+"TestEmpty.NoMissed.Title" = "No missed questions";
+"TestEmpty.NoMissed.Text" = "Take a quick test and review the missed questions here";
+"TestEmpty.NoMissed.Button" = "Take a test";
+
+// MARK: CustomMadeTest
+"CustomMadeTest.Title" = "Custom made";
+"CustomMadeTest.Cancel" = "Cancel";
+"CustomMadeTest.StartTest" = "Start test";
+"CustomMadeTest.Subjects" = "Subjects";
+"CustomMadeTest.More" = "More";
+"CustomMadeTest.QuestionType" = "Question Type";
+"CustomMadeTest.MissedQuestions" = "Missed questions";
+"CustomMadeTest.AnsweredQuestions" = "Answered questions";
+"CustomMadeTest.QuestionsCount" = "Questions count";
+
+// MARK: TestViewer
+"TestViewer.Title" = "Question";
+
+// MARK: ConfirmReset
+"ConfirmReset.Title" = "Reset the exam progress?";
+"ConfirmReset.SubTitle" = "This will remove all your progress\non the current exam. Are you sure\nyou want to reset?";
+"ConfirmReset.Reset" = "Reset progress";
