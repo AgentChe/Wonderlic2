@@ -43,6 +43,10 @@ final class OCreatingPlanView: OSlideView {
                 self.onNext()
             }
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: {
+            RequestReview.request()
+        })
     }
 }
 
