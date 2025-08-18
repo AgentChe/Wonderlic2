@@ -81,6 +81,17 @@ final class PlanViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
+        mainView.finalStepView.button.rx.tap
+            .bind(to: Binder(self) { base, void in
+                if SessionManager().hasActiveSubscriptions() {
+                    TestCoordinator.shared.start(testTypes: [.final], from: base)
+                } else {
+                    let vc = PaygateViewController.make()
+                    base.present(vc, animated: true)
+                }
+            })
+            .disposed(by: disposeBag)
+        
         mainView.stepCollectionView.mainDelegate = self
         mainView.testsTableView.mainDelegate = self
     }
@@ -174,9 +185,15 @@ private extension PlanViewController {
     func activity(_ activity: Bool) {
         let showAnimating = activity && mainView.stepCollectionView.elements.isEmpty
         showAnimating ? mainView.preloader.startAnimating() : mainView.preloader.stopAnimating()
-        mainView.stepCollectionView.isHidden = showAnimating
-        mainView.stepNameLabel.isHidden = showAnimating
-        mainView.testsTableView.isHidden = showAnimating
+        
+        mainView.stepCollectionView.alpha = showAnimating ? 0 : 1
+        mainView.stepCollectionView.isUserInteractionEnabled = !showAnimating
+        
+        mainView.stepNameLabel.alpha = showAnimating ? 0 : 1
+        mainView.stepNameLabel.isUserInteractionEnabled = !showAnimating
+        
+        mainView.testsTableView.alpha = showAnimating ? 0 : 1
+        mainView.testsTableView.isUserInteractionEnabled = !showAnimating
     }
     
     func update(stepName: String) {

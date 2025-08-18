@@ -25,6 +25,7 @@ protocol QuestionManagerProtocol {
         questionsCount: Int
     ) -> Single<Test?>
     func obtainPlanTest(testId: Int, activeSubscription: Bool) -> Single<Test?>
+    func obtainFinalTest(courseId: Int, activeSubscription: Bool) -> Single<Test?>
     func obtainOnboardingTest(courseId: Int, forceUpdate: Bool) -> Single<Test?>
     func obtainReview(courseId: Int, mode: Int, offset: Int) -> Single<[Review]>
     func saveQuestion(questionId: Int) -> Single<Void>
@@ -189,6 +190,18 @@ extension QuestionManager {
         let request = GetPlanTestRequest(
             userToken: sessionManager.internalId,
             testId: testId,
+            activeSubscription: activeSubscription
+        )
+        
+        return xorRequestWrapper
+            .callServerStringApi(requestBody: request, key: GlobalDefinitions.apiKey)
+            .map { GetTestResponseMapper.map(from: $0, key: GlobalDefinitions.apiKey) }
+    }
+    
+    func obtainFinalTest(courseId: Int, activeSubscription: Bool) -> Single<Test?> {
+        let request = GetFinalTestRequest(
+            userToken: sessionManager.internalId,
+            courseId: courseId,
             activeSubscription: activeSubscription
         )
         

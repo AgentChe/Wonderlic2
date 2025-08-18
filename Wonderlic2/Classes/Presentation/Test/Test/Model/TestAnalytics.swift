@@ -28,6 +28,8 @@ final class TestAnalytics {
             return "quick"
         case .custom:
             return "custom"
+        case .final:
+            return "final"
         }
     }
 }

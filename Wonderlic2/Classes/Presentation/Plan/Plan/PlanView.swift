@@ -64,8 +64,8 @@ private extension PlanView {
         ])
         
         NSLayoutConstraint.activate([
-            finalStepView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            finalStepView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            finalStepView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 28.scale),
+            finalStepView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -28.scale),
             finalStepView.topAnchor.constraint(equalTo: stepNameLabel.bottomAnchor, constant: 8.scale)
         ])
         

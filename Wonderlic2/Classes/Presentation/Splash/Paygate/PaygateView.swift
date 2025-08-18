@@ -128,6 +128,7 @@ private extension PaygateView {
 private extension PaygateView {
     func makeCloseButton() -> TapAreaButton {
         let view = TapAreaButton()
+        view.tintColor = Appearance.mono100
         view.setImage(UIImage(named: "Paygate.Close"), for: .normal)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)

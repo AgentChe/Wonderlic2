@@ -307,6 +307,11 @@ private extension TestViewModel {
                         includeAnsweredQuestions: attributes.isOnAnsweredQuestions,
                         questionsCount: attributes.questionsCount
                     )
+                case .final:
+                    test = self.questionManager.obtainFinalTest(
+                        courseId: examEnvironment.course.id,
+                        activeSubscription: self.sessionManager.hasActiveSubscriptions()
+                    )
                 }
                 
                 return test

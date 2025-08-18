@@ -77,19 +77,22 @@ extension PlanFinalStepView {
 private extension PlanFinalStepView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
             titleLabel.topAnchor.constraint(equalTo: topAnchor)
         ])
         
         NSLayoutConstraint.activate([
-            subTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            subTitleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            subTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
             subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 40.scale)
         ])
         
         NSLayoutConstraint.activate([
-            button.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 28.scale),
-            button.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -28.scale),
+            button.leadingAnchor.constraint(equalTo: leadingAnchor),
+            button.trailingAnchor.constraint(equalTo: trailingAnchor),
             button.topAnchor.constraint(equalTo: subTitleLabel.bottomAnchor, constant: 24.scale),
+            button.bottomAnchor.constraint(equalTo: bottomAnchor),
             button.heightAnchor.constraint(equalToConstant: 48.scale)
         ])
     }
